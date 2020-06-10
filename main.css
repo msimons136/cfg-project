@@ -1,0 +1,67 @@
+nav ul{
+ list-style-type: none;   
+}
+
+.topNav {
+    background-color: lightgrey;
+    padding: 0.05rem 0 0.05rem 0
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    background-color: lightblue;
+    margin: 0.01rem;
+    border: 0.01rem solid black;
+    font-family: fantasy;
+}
+
+.intro {
+    text-align: center;
+    border: 0.01rem solid black;
+    padding: 0 1rem 0 1rem;
+}
+
+.pickContinent {
+    padding: 1rem;
+}
+
+.continentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.continent {
+    width: 50%;
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+    font-size: 4rem;
+    /* color: white; */
+    font-weight: bold;
+    /* border: 0.01rem solid black; doesn't seem to work*/ 
+}
+
+.europe {
+    background-image: url('images/europe.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* .africa {
+
+} */
+
+.bottomNav {
+    background-color: lightgrey;
+    padding: 0.05rem 0 0.05rem 2rem
+}
+
+
+/* Europe */
+
+.map {
+    height: 40rem;
+    /* width: 40rem; */
+    background-color: white;
+}
